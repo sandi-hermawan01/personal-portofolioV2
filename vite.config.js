@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: "0.0.0.0",
-    port: 3006,
+    port: "http://zsans-product.tech",
   },
 });
