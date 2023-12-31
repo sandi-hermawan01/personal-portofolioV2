@@ -32,7 +32,7 @@ const HomePage = () => {
           </span>
           <HeaderSocials />
 
-          <a href="#contact" className="btn mt-6">
+          <a href="mailto:sandihermawanf01@gmail.com" className="btn mt-6">
             Let's Chat
           </a>
         </div>
