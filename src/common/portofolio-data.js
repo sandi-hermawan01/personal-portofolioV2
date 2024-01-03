@@ -1,9 +1,9 @@
-import Work1 from "../assets/img/portofolio_blogpublisher.jpg";
-import Work2 from "../assets/img/spotify_clone.jpg";
-import Work3 from "../assets/img/zsans_wiki.jpg";
+import Work1 from "/portofolio_blogpublisher.jpg";
+import Work2 from "/spotify_clone.jpg";
+import Work3 from "/zsans_wiki.jpg";
 import Work4 from "../assets/img/work-4.svg";
 import Work5 from "../assets/img/portofolioV1.jpg";
-import Work6 from "../assets/img/zsans-blog-publisher-promo.png";
+import Work6 from "/zsans-blog-publisher-promo.png";
 
 const PortofolioData = [
   {

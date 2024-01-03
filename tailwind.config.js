@@ -57,6 +57,7 @@ export default {
         rubik: ["'Rubik'", "sans-serif"],
       },
       fontWeight: {
+        small: 300,
         medium: 500,
         semibold: 600,
         bold: 700,

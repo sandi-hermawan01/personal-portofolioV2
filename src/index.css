@@ -274,4 +274,80 @@
   .about__title {
     @apply max-[420px]:text-xl max-[420px]:mt-3;
   }
+
+  /* portofoliov2 */
+  .filters {
+    @apply my-[100px] mt-0 mb-[50px] flex justify-start flex-wrap gap-2;
+  }
+  .filter-btn {
+    @apply py-[8px] px-[15px] text-[1rem] border-none text-text_color_light bg-transparent capitalize cursor-pointer transition-[0.5s] rounded-[15px];
+  }
+  .filter-btn.active,
+  .filter-btn:hover {
+    @apply text-white bg-light-grey;
+  }
+  .project-card:hover:not(.active) .tags {
+    @apply opacity-100;
+  }
+  .project-card:hover:not(.active) .project-image {
+    @apply opacity-60;
+  }
+
+  .name {
+    @apply text-dark-grey my-[30px] mx-0 font-small text-[2rem] capitalize py-0 pr-[10px] pl-[5px];
+  }
+  .details {
+    @apply text-dark-grey opacity-50 text-[1.1rem] leading-[1.8rem] mb-10;
+  }
+  .btn-grps {
+    @apply flex gap-5;
+  }
+  .btn-grps .btn {
+    @apply m-0;
+  }
+  .btn-grps .btn:hover {
+    @apply bg-light-grey text-white;
+  }
+
+  .cl-card {
+    @apply flex flex-row mb-[10px];
+  }
+
+  .cl-card:nth-child(1),
+  .cl-card:nth-child(2),
+  .cl-card:nth-child(3) {
+    @apply flex flex-row;
+  }
+
+  .language {
+    @apply flex flex-row text-center items-center justify-start w-[160px] bg-dark-grey rounded-[12px] pl-[10px];
+  }
+  .icon {
+    @apply w-5 h-5;
+  }
+  .language .name {
+    @apply text-[14px] font-bold m-0 text-light-grey;
+  }
+  .progress-track {
+    @apply w-full mt-5 mr-0 mb-[30px] ml-[10px] h-[10px] rounded-[5px] bg-black overflow-hidden;
+  }
+  .progress {
+    @apply transition-[1s] w-1/2 bg-light-grey h-full rounded-[10px];
+  }
+
+  .project-card.active {
+    @apply border-[10px] border-solid border-light-grey rounded-default;
+  }
+  .project-card:hover:not(.active) .tags {
+    @apply text-white bg-dark-grey bg-gradient-to-t bg-opacity-30 bg-blend-soft-light rounded-[10px] pl-4 py-1;
+  }
+  .project-card:nth-child(4):hover:not(.active) .tags {
+    @apply text-white bg-dark-grey bg-opacity-80 bg-blend-soft-light rounded-[10px] pl-4 py-1;
+  }
+  .project-card:nth-child(1):hover:not(.active) .tags {
+    @apply text-white bg-dark-grey bg-opacity-60 bg-blend-soft-light rounded-[10px] pl-4 py-1;
+  }
+  .project-card:hover:not(.active) .project-image {
+    @apply opacity-60;
+  }
 }

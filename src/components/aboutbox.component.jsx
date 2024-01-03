@@ -1,10 +1,10 @@
 import React from "react";
-import ReactIcon from "../assets/icon/reactjs.png";
-import TailwindIcon from "../assets/icon/tailwind.png";
-import FirebaseIcon from "../assets/icon/firebase.png";
-import MongoDBIcon from "../assets/icon/mongo.png";
-import NextIcon from "../assets/icon/next.png";
-import Jupyter from "../assets/icon/jupyter_logo.png";
+import ReactIcon from "/icon/reactjs.png";
+import TailwindIcon from "/icon/tailwind.png";
+import FirebaseIcon from "/icon/firebase.png";
+import MongoDBIcon from "/icon/mongo.png";
+import NextIcon from "/icon/next.png";
+import Jupyter from "/icon/jupyter_logo.png";
 
 const AboutBox = () => {
   return (

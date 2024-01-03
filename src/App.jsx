@@ -6,6 +6,7 @@ import About from "./pages/about.page";
 import Services from "./pages/services.page";
 import Resume from "./pages/resume.page";
 import Portofolio from "./pages/portofolio.page";
+import PortofolioV2 from "./pages/portofolioV2.page";
 import Testimonials from "./pages/testimonials.page";
 import Blog from "./pages/blog.page";
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="services" element={<Services />} />
           <Route path="resume" element={<Resume />} />
           <Route path="portofolio" element={<Portofolio />} />
+          <Route path="portofoliov2" element={<PortofolioV2 />} />
           <Route path="testimonials" element={<Testimonials />} />
           <Route path="blog" element={<Blog />} />
         </Route>
