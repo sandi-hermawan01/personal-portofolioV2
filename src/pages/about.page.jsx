@@ -2,6 +2,7 @@ import React from "react";
 import about_img from "../assets/img/avatar-2.svg";
 import AboutBox from "../components/aboutbox.component";
 import Me from "../assets/img/personal-brand-logo.jpg";
+import Cv from "../assets/doc/cv-sandi-hermawan.pdf";
 
 const About = () => {
   return (
@@ -30,11 +31,7 @@ const About = () => {
                 my experience
               </a>
             </p>
-            <a
-              href="../assets/doc/cv-sandi-hermawan.pdf"
-              className="btn"
-              download
-            >
+            <a href={Cv} className="btn" download>
               Download CV
             </a>
           </div>

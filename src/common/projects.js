@@ -6,7 +6,7 @@ const projects = [
       "Zsans Blog Publisher, is a media provider of various articles, you can easily publish and write your articles, create your articles and achieve top trending!",
     tags: "#fullstack, #html, #css, #react, #big-project",
     category: "Big Project",
-    live: "http://zsans-product.tech:4173/",
+    live: "https://blog-client-gilt.vercel.app",
     github: "",
     image: "/zsans-blog-publisher-promo.png",
     languages: {

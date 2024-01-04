@@ -56,6 +56,7 @@ const PortofolioV1 = () => {
           </button>
         ))}
       </div>
+
       <div className="work__container grid pt-6  grid-cols-3 gap-[1.875rem] max-[420px]:grid-cols-1">
         {filteredItems.map((item, idx) => {
           const { image, name, category, live } = item;
@@ -83,14 +84,14 @@ const PortofolioV1 = () => {
               <div className="work__title mt-0 mr-0 mb-[0.98rem] py-0 px-5 absolute top-[3.55rem] left-[0.8rem] translate-y-[30px] transition-[.3s] max-w-[16rem] opacity-0">
                 <h3 className=" text-white text-h3_font ">{name}</h3>
               </div>
-
+              <a className="work__button font-medium absolute bottom-[28px] left-[28px] text-h3_font block bg-body_color h-[32px] w-[32px] hover:underline cursor-pointer rounded-[30px] text-center leading-[42px] transition-[.3s] opacity-0"></a>
               <a
                 href={live}
-                className="work__button font-medium absolute bottom-6 left-6 text-h3_font block bg-body_color h-10 w-10 hover:underline cursor-pointer rounded-[30px] text-center leading-[42px] transition-[.3s] opacity-0"
+                className="first__button font-medium absolute bottom-6 left-6 text-h3_font block bg-body_color h-10 w-10 hover:underline cursor-pointer rounded-[30px] text-center leading-[42px] transition-[.3s] z-30 opacity-0"
               >
                 <i className="icon-link work__button-icon "></i>
               </a>
-              <div className="tags absolute top-[7.70rem] left-[5rem] text-wrap max-w-[210px] opacity-0">
+              <div className="tags absolute top-[7.40rem] left-[4.8rem] text-wrap max-w-[210px] bg-light-grey bg-opacity-20 rounded-[10px] px-4 py-1 opacity-0">
                 <p className=" text-white text-[15px]">{item.tags}</p>
               </div>
             </div>

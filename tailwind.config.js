@@ -65,22 +65,28 @@ export default {
       backgroundImage: {
         "section-title": "url('/src/assets/dots-bg.svg')",
       },
-      keyframes: {
-        push: {
-          "50%": { transform: "scale(0.9)" },
-          "100%": { transform: "scale(1)" },
-        },
-        "mouse-ani": {
-          "0%": { top: "29%" },
-          "15%": { top: "50%" },
-          "50%": { top: "50%" },
-          "100%": { top: "29%" },
-        },
-      },
     },
     animation: {
       "button-push": "push 0.3s linear 1",
       "ani-mouse": "mouse-ani 2s linear infinite",
+      pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+      bouce: "bounce 1s infinite",
+    },
+    keyframes: {
+      ping: {
+        "75%, 100%": { transform: "scale(2)", opacity: "0" },
+      },
+      push: {
+        "50%": { transform: "scale(0.9)" },
+        "100%": { transform: "scale(1)" },
+      },
+      "mouse-ani": {
+        "0%": { top: "29%" },
+        "15%": { top: "50%" },
+        "50%": { top: "50%" },
+        "100%": { top: "29%" },
+      },
     },
     boxShadow: {
       mono: "3px 3px 0px 0px rgba(0, 0, 0)",
