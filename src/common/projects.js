@@ -5,7 +5,8 @@ const projects = [
     about:
       "Zsans Blog Publisher, is a media provider of various articles, you can easily publish and write your articles, create your articles and achieve top trending!",
     tags: "#fullstack, #html, #css, #react, #big-project",
-    live: "",
+    category: "Big Project",
+    live: "http://zsans-product.tech:4173/",
     github: "",
     image: "/zsans-blog-publisher-promo.png",
     languages: {
@@ -25,7 +26,8 @@ const projects = [
     about:
       "Sans Blog is my personal blog, in which you can read and publish a blog with the image, tittle and content of your blog.",
     tags: "#javascript, #fullstack, #css, #html",
-    live: "",
+    category: "Fullstack",
+    live: "https://personal-portofolio-mu.vercel.app/features/blogging-site/home.html",
     github: "",
     image: "/portofolio_blogpublisher.jpg",
     languages: {
@@ -45,7 +47,8 @@ const projects = [
     about:
       "Sans Wiki is a search engine using the wikipedia API, everything on wikipedia can be searched here.",
     tags: "#fullstack, #javascript, #css, #html",
-    live: "",
+    category: "Fullstack",
+    live: "https://personal-portofolio-mu.vercel.app/features/wiki-site/wiki.html",
     github: "",
     image: "/zsans_wiki.jpg",
     languages: {
@@ -65,9 +68,30 @@ const projects = [
     about:
       "In this Spotify Clone, I cloned the front-end, the progress is only up to the home page and 50% responsive.",
     tags: "#frontend, #html, #css",
-    live: "",
+    category: "Frontend",
+    live: "https://personal-portofolio-mu.vercel.app/features/spotify-clone/spoti-home.html",
     github: "",
     image: "/spotify_clone.jpg",
+    languages: {
+      html: "90%",
+      css: "90%",
+      javascript: "15%",
+      reactjs: "0%",
+      nodejs: "0%",
+      database: "0%",
+      tailwind: "0%",
+      other: "0%",
+    },
+  },
+  {
+    id: 4,
+    name: "Personal Portofolio V1",
+    about: "Personal Portofolio V1.",
+    tags: "#frontend, #html, #css, #javascript",
+    category: "Frontend",
+    live: "https://personal-portofolio-mu.vercel.app/",
+    github: "",
+    image: "/portofolioV1.jpg",
     languages: {
       html: "90%",
       css: "90%",

@@ -7,8 +7,26 @@ import iconNode from "/icon/nodejs.png";
 import iconMongoDB from "/icon/mongo.png";
 import iconTailwind from "/icon/tailwind.png";
 import iconOther from "/icon/other.png";
+import projects from "../common/projects";
 
 const CodingLanguage = () => {
+  function ProgressTrack({ projects }) {
+    return (
+      <div className="progress-track">
+        {projects?.languages.map((item) => (
+          <div key={item.getAttribute("data-name")} className="progress-track">
+            <div
+              className="progress"
+              style={{
+                width: activeProject.languages[item.getAttribute("data-name")],
+              }}
+            />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div className="coding-language-breakdown">
       <div className="cl-card">
@@ -16,72 +34,56 @@ const CodingLanguage = () => {
           <img src={iconHtml} className="icon" alt="" />
           <p className="name">HTML</p>
         </div>
-        <div className="progress-track" data-name="html">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconCss} className="icon" alt="" />
           <p className="name">CSS</p>
         </div>
-        <div className="progress-track" data-name="css">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconJs} className="icon" alt="" />
           <p className="name">JavaScript</p>
         </div>
-        <div className="progress-track" data-name="javascript">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconReact} className="icon" alt="" />
           <p className="name">React JS</p>
         </div>
-        <div className="progress-track" data-name="reactjs">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconNode} className="icon" alt="" />
           <p className="name">Node JS</p>
         </div>
-        <div className="progress-track" data-name="nodejs">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconMongoDB} className="icon" alt="" />
           <p className="name">MongoDB</p>
         </div>
-        <div className="progress-track" data-name="database">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconTailwind} className="icon" alt="" />
           <p className="name">Tailwind</p>
         </div>
-        <div className="progress-track" data-name="tailwind">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
       <div className="cl-card">
         <div className="language">
           <img src={iconOther} className="icon" alt="" />
           <p className="name">Other</p>
         </div>
-        <div className="progress-track" data-name="other">
-          <div className="progress"></div>
-        </div>
+        <ProgressTrack data={projects} />
       </div>
     </div>
   );

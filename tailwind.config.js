@@ -83,6 +83,7 @@ export default {
       "ani-mouse": "mouse-ani 2s linear infinite",
     },
     boxShadow: {
+      mono: "3px 3px 0px 0px rgba(0, 0, 0)",
       shadow: "0px 5px 20px 0px rgb(69 67 96 / 10%)",
       sm: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);",
       md: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);",
