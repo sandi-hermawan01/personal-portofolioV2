@@ -60,7 +60,7 @@ const SideBarV2 = () => {
           {Menus.map((Menu, index) => (
             <li
               key={index}
-              className={`flex rounded-md p-2 cursor-pointer hover:bg-light-grey hover:rounded-[5px] hover:text-white text-text_color font-medium text-base items-center max-[420px]:hover:bg-white max-[420px]:hover:text-text_color
+              className={`flex rounded-md p-2 cursor-pointer hover:bg-light-grey  hover:rounded-[5px] hover:text-white text-text_color font-medium text-base items-center max-[420px]:hover:bg-white max-[420px]:hover:text-text_color
               ${Menu.gap ? "mt-5" : "mt-0"} ${
                 index === 0 &&
                 "border-[1px] rounded-[8px] border-light-grey shadow-sm max-[420px]:border-none max-[420px]:shadow-none"
@@ -68,7 +68,7 @@ const SideBarV2 = () => {
             >
               <a
                 href={`${Menu.link}`}
-                className="w-auto h-auto text-[1.2rem] max-[420px]:translate-x-[-18px] flex items-center text-center justify-center "
+                className="w-auto h-auto text-[1.2rem] max-[420px]:translate-x-[-18px] flex items-center text-center justify-center  "
               >
                 {Menu.icon}
                 <span
