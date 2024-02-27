@@ -107,7 +107,7 @@ const projects = [
     id: 6,
     name: "Zsans Kanban",
     about: "Zsans Kanban is for personal project management",
-    tags: "#fullstack, #taillwind, #javascript, #react",
+    tags: "#fullstack, #taillwind, #nodejs, #react",
     category: "Fullstack",
     live: "https://github.com/sandi-hermawan01/zsans-kanban",
     github: "",
