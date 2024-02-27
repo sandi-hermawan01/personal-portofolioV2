@@ -4,6 +4,7 @@ import Work3 from "/zsans_wiki.jpg";
 import Work4 from "../assets/img/work-4.svg";
 import Work5 from "/portofolioV1.jpg";
 import Work6 from "/zsans-blog-publisher-promo.png";
+import Work7 from "/kanban_banner.jpg";
 
 const PortofolioData = [
   {
@@ -49,6 +50,14 @@ const PortofolioData = [
     image: Work4,
     title: "nothing",
     category: "Big Project",
+    link: "",
+  },
+  ,
+  {
+    id: 7,
+    image: Work7,
+    title: "Zsans Kanban",
+    category: "Fullstack",
     link: "",
   },
 ];
