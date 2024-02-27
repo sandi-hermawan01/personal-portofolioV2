@@ -1,8 +1,8 @@
-# React + Vite
+![next-gdrive-index](./public/portofolio1.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About PortofolioV2
+Personal portofoliov2 is an upgrade from personal portfolio which [previously](https://github.com/sandi-hermawan01/personal-portofolio) used vanilla technology, now using ReactJs, it doesn't look much different, even portofoliov1 looks more features.
 
-Currently, two official plugins are available:
+However, Portofoliov2 is designed to be smoother and can add new features with new technology as well.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+create your project with ReactJS :)
